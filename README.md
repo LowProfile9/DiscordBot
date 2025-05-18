@@ -19,7 +19,7 @@ The following code, is for a 30-minutes fun proyect for a personal, funtional di
 
 / To clone this repository:
 
-bash git clone https://github.com/your-username/your-repo.git cd https://github.com/LowProfile9/DiscordBot
+bash git clone https://github.com/LowProfile9/DiscordBot.git cd DiscordBot
 
 / Install dependencies:
 
@@ -37,5 +37,13 @@ Go to "Bot" > "Token" > "Copy"
 2.Configure FFmpeg:
 Update path in FFMPEG_OPTIONS according to your system
 for Windows: 'executable': r'path\to\ffmpeg.exe
+
 3.Bot Prefix(this is important):
 Change if you want, but default is: command_prefix="!" 
+
+/ How to command this bot in discord?
+Command	Description	Example
+!play <query>	Play or add to queue 
+!skip	Skip current song	
+!stop	Stop bot and clear queue
+!queue_list	Show queued songs	
