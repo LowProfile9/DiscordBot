@@ -16,3 +16,26 @@ The following code, is for a 30-minutes fun proyect for a personal, funtional di
 - FFmpeg installed ([Installation Guide](https://ffmpeg.org/download.html))
 - Discord Developer Account
 - Discord Bot Token
+
+/ To clone this repository:
+
+bash git clone https://github.com/your-username/your-repo.git cd https://github.com/LowProfile9/DiscordBot
+
+/ Install dependencies:
+
+pip install -r requirements.txt
+
+/ Create a .env file and add your token:
+
+DiscordToken=YOUR_TOKEN_HERE
+
+/How to configure? 
+1.Get Discord Token:
+Create an application at Discord Developer Portal
+Go to "Bot" > "Token" > "Copy"
+
+2.Configure FFmpeg:
+Update path in FFMPEG_OPTIONS according to your system
+for Windows: 'executable': r'path\to\ffmpeg.exe
+3.Bot Prefix(this is important):
+Change if you want, but default is: command_prefix="!" 
